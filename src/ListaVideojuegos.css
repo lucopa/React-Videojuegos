@@ -1,0 +1,56 @@
+
+.ListaVideojuegos {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding: 20px;
+  background-color: #48C9B0;
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+
+.Videojuego {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #A3E4D7;
+  width: 70%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Videojuego h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.Videojuego img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.Videojuego p {
+  margin-bottom: 5px;
+}
+
+
+.Categorias {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Categorias label {
+  margin-right: 20px;
+}
+
+.Categorias input {
+  margin-right: 5px;
+}

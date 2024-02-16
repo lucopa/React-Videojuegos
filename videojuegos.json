@@ -1,0 +1,93 @@
+{
+  "videojuegos": [
+    {
+      "id": 1,
+      "nombre": "Super Mario Odyssey",
+      "descripcion": "¡Únete a Mario en una gigantesca aventura en 3D a través de mundos llenos de sorpresas y peligros!",
+      "fecha_lanzamiento": "2017-10-27",
+      "compania": "Nintendo",
+      "plataformas": ["Switch"],
+      "categorias": ["Plataformas", "Aventura"],
+      "precio": 49.99,
+      "imagen_url": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperMarioOdyssey_bannerXS.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Tomb Raider",
+      "descripcion": "La joven Lara Croft, cansada de malvivir trabajando como mensajera en bicicleta, lo abandona todo y parte en busca de su padre, un aventurero que desapareció en una isla legendaria en la costa de Japón",
+      "fecha_lanzamiento": "2019-10-27",
+      "compania": "Sony",
+      "plataformas": ["PS5"],
+      "categorias": ["Lucha", "Aventura"],
+      "precio": 29.99,
+      "imagen_url": "https://image.api.playstation.com/vulcan/img/cfn/11307kGDEQ-Af4VjkwzfffuEE2DIn5-r1kMp86kg5PyUc7morSMv04cMbucnKivYNnLJl5Y11Ys7pXuLan1YW7zg1XsxKtb0.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Alice Madness Returns",
+      "descripcion": "Contará la historia de una Alicia más adulta, que trata de recuperarse del trauma que supuso perder a sus padres en el incendio descrito en la intro del juego original.",
+      "fecha_lanzamiento": "2015-01-20",
+      "compania": "EA",
+      "plataformas": ["PC","Xbox One"],
+      "categorias": ["Lucha","Plataformas"],
+      "precio": 19.99,
+      "imagen_url": "https://cdn-products.eneba.com/resized-products/MuufIbZ_350x200_3x-0.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Street Fighter",
+      "descripcion": "contará la historia de una Alicia más adulta, que trata de recuperarse del trauma que supuso perder a sus padres en el incendio descrito en la intro del juego original.",
+      "fecha_lanzamiento": "2016-01-20",
+      "compania": "CapCom",
+      "plataformas": ["PC"],
+      "categorias": ["Lucha"],
+      "precio": 39.99,
+      "imagen_url": "El objetivo del juego es usar distintos tipos de ataques para agotar los puntos de vida del rival, al mismo tiempo que se usan técnicas defensivas para evitar recibir daño. Los personajes pueden usar ataques cuerpo a cuerpo, proyectiles de energía a distancia o incluso armas."
+    },
+    {
+      "id": 5,
+      "nombre": "Profesor Layton",
+      "descripcion": "El profesor Layton es una serie de videojuegos de misterio y puzles1​ para la gama de consolas Nintendo DS y Nintendo 3DS, así como para sistemas iOS y Android, creada por Level-5.",
+      "fecha_lanzamiento": "2010-01-20",
+      "compania": "Nintendo",
+      "plataformas": ["Switch"],
+      "categorias": ["Puzzle"],
+      "precio": 29.99,
+      "imagen_url": "https://i.blogs.es/6a1d5e/layton10/840_560.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Plantas vs Zombies",
+      "descripcion": "Plantas contra Zombis es un videojuego de defensa de torres de 2009 desarrollado y publicado por PopCap Games",
+      "fecha_lanzamiento": "2012-01-20",
+      "compania": "EA",
+      "plataformas": ["PC"],
+      "categorias": ["Shooter"],
+      "precio": 19.99,
+      "imagen_url": "https://img.utdstc.com/screen/711/946/7119464d0906b86e5d4f9cd51784f3f4628425a83f72ad9e33962b35ca531be4:600"
+    }
+    
+  ],
+  "categorias": [
+    "Lucha",
+    "Arcade",
+    "Plataformas",
+    "Shooter",
+    "Estrategia",
+    "Simulación",
+    "Deporte",
+    "Aventura",
+    "Rol",
+    "Educación",
+    "Puzzle"
+  ],
+  "plataformas": [
+    "PC",
+    "PS5",
+    "Xbox One",
+    "Switch",
+    "Android",
+    "iOS",
+    "Otras"
+  ]
+}
