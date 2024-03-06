@@ -1,5 +1,8 @@
-import React from 'react';
+
+import React, { useState, useEffect } from 'react';
 import ListaVideojuegos from './ListaVideojuegos';
+import SearchBar from './SearchBar'; 
+import data from './data.json';
 
 const categorias = [
   "Lucha",
@@ -16,9 +19,21 @@ const categorias = [
 ];
 
 function App() {
+  const [videojuegos, setVideojuegos] = useState([]);
+  const [searchQuery, setSearchQuery] = useState('');
+
+  useEffect(() => {
+    setVideojuegos(data.videojuegos);
+  }, []);
+
+  const handleSearch = (query) => {
+    setSearchQuery(query);
+  };
+
   return (
     <div className="App">
-      <ListaVideojuegos categorias={categorias} />
+      <SearchBar handleSearch={handleSearch} /> 
+      <ListaVideojuegos videojuegos={videojuegos} categorias={categorias} searchQuery={searchQuery} />
     </div>
   );
 }

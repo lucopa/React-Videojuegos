@@ -107,8 +107,8 @@
         "compania": "Epic Games",
         "plataformas": ["PC", "PS5", "Xbox One", "Switch", "Android", "iOS"],
         "categorias": ["Shooter", "Battle Royale"],
-        "precio": 0,
-        "imagen_url": "https://cdn2.unrealengine.com/br-social-share-1200x630-5bda863e56e16.jpg"
+        "precio": 15.99,
+        "imagen_url": "https://m.media-amazon.com/images/I/91upEAkiaCL.png"
       },
       {
         "id": 11,
@@ -152,7 +152,7 @@
         "plataformas": ["PS5", "Xbox One", "PC"],
         "categorias": ["Acción", "Aventura", "Mundo abierto"],
         "precio": 59.99,
-        "imagen_url": "https://images.gameworld.es/games/medios/000/073/532/assin-s-creed-valhalla-xbox-series-x.jpg"
+        "imagen_url": "https://stargamers.com.pe/index/wp-content/uploads/2021/03/Assassins-Creed.jpg"
       },
       {
         "id": 15,
